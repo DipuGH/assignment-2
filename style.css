@@ -68,6 +68,9 @@ header {
     font-weight: 400;
     color: #8987A1;
 }
+.Cart i {
+    margin-right: 10px;
+}
 /* Navbar Styles End */
 /* Banner Styles Start*/
 .banner{
@@ -199,14 +202,23 @@ header {
 .plant-lover-content ul {
     padding-left: 30px;
     width: 100%;
-    /* height: auto; */
-    /* display: block; */
-    font-size: 1.38rem;
+     font-size: 1.38rem;
     font-weight: normal;
     color: rgba(0, 0, 0, 50%);
 }
 .plant-lover-content ul li {
     margin: 20px 0px;
+}
+.badge-cantainaer {
+    position: relative;
+}
+.badge {
+    position: absolute;
+    height: 386px;
+    width: 386px;
+    top: -200px;
+    right: -150px;
+
 }
 
 /* Plant lover styles end */
@@ -276,6 +288,9 @@ header {
     }
     .plant-lover-content {
         padding-left: 20px;
+    }
+    .badge {
+        display: none;
     }
     /* Plant lover styles end */
 
