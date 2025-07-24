@@ -218,10 +218,54 @@ header {
     width: 386px;
     top: -200px;
     right: -150px;
-
 }
-
 /* Plant lover styles end */
+/* Join section start */
+.join-section {
+    height: 70vh;
+    width: 100%;
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.join-section-content h1 {
+    color: white;
+    font-size: 3.13rem;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.join-section-content input {
+    font-size: 1rem;
+    padding: 8px 20px;
+    max-width: 40.25rem;
+    height: 3.13rem;
+}
+form {
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  font-size: 16px;
+}
+.join-btn {
+    background-color: #E95A08;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 11.6rem;
+    height: 3.13rem;  
+}
+/* Join section end */
 
 @media screen and (max-width: 640px) {
    /* Navbar Styles */
