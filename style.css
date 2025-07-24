@@ -100,7 +100,7 @@ header {
 /* Banner Styles End*/
 /* Plant styles start */
 .plants{
-    margin: auto 150px;
+    margin: 130px 150px 41px;
 
 }
 .plant-content {
@@ -122,7 +122,7 @@ header {
     grid-template-areas:
     "card-1 card-2 card-3 card-4" 
     "card-5 card-6 card-7 card-8";
-    gap: 30px;
+    gap: 100px;
 }
 .card {
     height:auto ;
@@ -154,6 +154,9 @@ header {
     grid-area: card-8;
 }
 .card-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
     margin-bottom: 30px;
 }
 .card-detailes {
@@ -170,7 +173,43 @@ header {
     margin: 20px auto 30px;
 }
 
-/* Plant styler end */
+/* Plant styles end */
+/* Plant lover styles start */
+.plant-lover-section {
+    margin: 210px 150px 133px ;
+}
+.plant-lover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+.plant-lover-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.plant-lover-content {
+    padding: 38px 0px 38px 60px ;
+}
+.plant-lover-content h1 {
+    font-size: 3.13rem;
+    font-weight: bold;
+}
+.plant-lover-content ul {
+    padding-left: 30px;
+    width: 100%;
+    /* height: auto; */
+    /* display: block; */
+    font-size: 1.38rem;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 50%);
+}
+.plant-lover-content ul li {
+    margin: 20px 0px;
+}
+
+/* Plant lover styles end */
 
 @media screen and (max-width: 640px) {
    /* Navbar Styles */
@@ -225,7 +264,19 @@ header {
     "card-5 card-6"
     "card-7 card-8";
     gap: 30px;
-}
-    /* Plant styler end */
+    }
+    /* Plant styles end */
+    /* Plant lover styles start */
+    .plant-lover-section{
+        margin: 40px 16px 140px;
+    }
+    .plant-lover {
+        grid-template-columns: 1fr;
+        
+    }
+    .plant-lover-content {
+        padding-left: 20px;
+    }
+    /* Plant lover styles end */
 
 }
