@@ -26,6 +26,7 @@
     font-weight: 400;
     width: 17rem;
     height: 3.13rem;
+    border: none;
 }
 /* Header section */
 
@@ -221,50 +222,43 @@ header {
 }
 /* Plant lover styles end */
 /* Join section start */
-.join-section {
-    height: 70vh;
-    width: 100%;
-    background-image: url(./assets/news-letter-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.join-section-content h1 {
-    color: white;
-    font-size: 3.13rem;
-    font-weight: bold;
-    margin-bottom: 23px;
-}
-.join-section-content input {
-    font-size: 1rem;
-    padding: 8px 20px;
-    max-width: 40.25rem;
-    height: 3.13rem;
-}
-form {
-  display: flex;
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-input {
-  flex: 1;
-  padding: 8px;
-  border: none;
-  font-size: 16px;
-}
-.join-btn {
-    background-color: #E95A08;
-    color: white;
-    font-size: 1rem;
-    font-weight: 400;
-    width: 11.6rem;
-    height: 3.13rem;  
-}
+.join-container {
+            background-image: url(./assets/news-letter-bg.png);
+            height: 70vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+        }
+        .join-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            width: 50%;
+
+        }
+        .join-form h1 {
+            font-size: 3.125rem;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 23px;
+        }
+        .join-form input {
+            width: 60%;
+            padding: 8px 20px;
+            height: 50px;
+        }
+        .subscribe-button {
+        width: 20%;
+        padding: 8px 20px;
+        height: 50px;
+        font-size: 16px;
+        background-color: #E95A08;
+        color: white;
+        border: none;
+        }
 /* Join section end */
 
 /* Footer styles start */
@@ -362,6 +356,7 @@ input {
     gap: 30px;
     }
     /* Plant styles end */
+
     /* Plant lover styles start */
     .plant-lover-section{
         margin: 40px 16px 140px;
@@ -377,6 +372,18 @@ input {
         display: none;
     }
     /* Plant lover styles end */
+    /* join styles start */
+    .join-form{
+            width: 100%;
+          } 
+        .join-form h1{
+            margin-bottom: 23px;
+            font-size: 20px;
+        } 
+        .mail-box{
+            width: 50%;
+        }
+    /* join styles end */
     /* Footer styles start */
     .footer-section {
         margin: 50px 20px;
