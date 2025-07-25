@@ -108,6 +108,10 @@ header {
 
 }
 .plant-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 .plants h1 {
@@ -203,7 +207,7 @@ header {
 .plant-lover-content ul {
     padding-left: 30px;
     width: 100%;
-     font-size: 1.38rem;
+    font-size: 1.38rem;
     font-weight: normal;
     color: rgba(0, 0, 0, 50%);
 }
@@ -221,6 +225,80 @@ header {
     right: -150px;
 }
 /* Plant lover styles end */
+/* Promo styles start */
+
+        .promo-content h1 {
+        font-size: 3.13rem;
+        font-weight: bold;
+        }
+        .promo-content p {
+        font-weight: normal;
+        font-size: 1.38rem;  
+        color: rgba(0, 0, 0, 50%);
+        margin-top: 16px;
+        }
+        .promo-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        }
+
+       .promo-container {
+        height: 45vh;
+        margin: 120px 146px;
+        display: flex;
+        gap: 28px;
+        }
+       .left-promos {
+        max-width: 567px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+       } 
+       .right-promo{
+        /* max-width: 753px; */
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 40%);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+       .promo-item {
+        height: 50%;
+        background-color: rgba(0, 0, 0, 40%);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+        .promo-text h3 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: white;
+       }
+       .promo-text h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: white;
+       }
+       .shop-now-btn {
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+       }
+/* Promo styles end */
 /* Join section start */
 .join-container {
             background-image: url(./assets/news-letter-bg.png);
@@ -338,14 +416,25 @@ header {
    .banner-content{
     margin: 28px 16px 65px 16px;
    }
+   .banner-content h1 {
+    font-size: 24px;
+   }
    .banner-content p{
     margin-top: 13px;
+    font-size: 14px;
    }
    /* Banner Styles End*/
    /* Plant styles start */
    .plants{
-    margin: 200px 16px 28px;
+    margin: 100px 16px 28px;
    }
+   .plants h1 {
+        font-size: 24px;
+    }
+    .plants p{
+        max-width: 336px;
+        font-size: 14px;
+    }
    .plant-card{
     display: grid;
     grid-template-areas:
@@ -371,7 +460,38 @@ header {
     .badge {
         display: none;
     }
+    .plant-lover-content h1 {
+        font-size: 24px;
+    }
+    .plant-lover-content ul {
+       font-size: 14px; 
+    }
     /* Plant lover styles end */
+    /* Promo styles start */
+    .promo-container {
+            flex-direction: column;
+            margin: 50px 16px ;
+        }
+        .left-promos {
+            max-width: 608px;
+            width: 100%;
+            height: 368px;
+        }
+        .right-promo {
+            height: 184px;
+        }
+        .promo-text h2 , h3 {
+            font-size: 1.25rem;
+            
+        }
+        .promo-content h1 {
+            font-size: 24px;
+        }
+        .promo-content p{
+            max-width: 336px;
+            font-size: 14px;
+        }
+    /* Promo styles end */
     /* join styles start */
     .join-form{
             width: 100%;
@@ -389,6 +509,9 @@ header {
         margin: 50px 20px;
         flex-direction: column;
         gap: 20px;
+    }
+    .footer-content p {
+    font-size: 16px;
     }
     /* Footer styles end */
 
